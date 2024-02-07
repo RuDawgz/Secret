@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        body {
+            background-color: #000; /* Black background */
+            color: #ff0; /* Yellow font */
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .image-container img {
+            max-width: 200px;
+            height: auto;
+        }
+        .wallet-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #ff0; /* Yellow button */
+            color: #000; /* Black text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        .wallet-button:hover {
+            background-color: #cc0; /* Darker yellow on hover */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Top Secret</h1>
+
+<div class="image-container">
+    <!-- Replace image-sourceX.jpg with your actual image paths -->
+    <!-- You may repeat this line for as many images as you have -->
+    <!-- For demonstration, here is one image -->
+    <img src="Cowboy.jpg" alt="RuDawg">
+    <!-- Add more images as needed -->
+</div>
+
+<button class="wallet-button" onclick="connectDogecoinWallet()">Connect Dogecoin Wallet</button>
+
+<script>
+    function connectDogecoinWallet() {
+        // Your code to connect Dogecoin wallet goes here
+        // Example: alert('Connecting Dogecoin wallet...');
+    }
+</script>
+
+</body>
+</html>
